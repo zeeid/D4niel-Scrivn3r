@@ -1,0 +1,15 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="6.8" height="11.5" viewBox="0 0 6.8 11.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f90;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>ds-arrow-right-orange</title>
+  <path class="cls-1" d="M6.3,10.5l4.8-4.8L6.3,1" transform="translate(-5.3)"/>
+</svg>

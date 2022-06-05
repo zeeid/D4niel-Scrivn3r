@@ -1,0 +1,64 @@
+.menu-grid-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .menu-link-1 {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom-style: none;
+    background-color: transparent;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .menu-link-1.w--current,
+  .menu-link-1:hover {
+    color: #f90;
+  }
+  .menu-link-txt-1 {
+    position: relative;
+    top: 2px;
+    border-bottom: 2px #000;
+    font-family: "Söhnemono kräftig", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.28px;
+  }
+  .home-section-2 {
+    position: relative;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-top: 1px solid #1c1c1c;
+    background-color: #0d0d0d;
+  }
+  .home-section-2.global-black {
+    background-color: #050505;
+  }
